@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  padding: 30px;
+  background-color: purple;
+}
+
+h1 {
+  color: violet;
+  background-color: black;
+  padding: 20px 10px;
+  letter-spacing: 0.5em;
+  transition: letter-spacing 5s, background-color 5s, padding 2s;
+}
+
+button {
+  font-size: 2rem;
+  transition: font-size 5s;
+  border-radius: 15px;
+  padding: 10px;
+  border: 5px dashed purple;
+  background-color: hotpink;
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px white;
+}
+
+#background {
+  border: 18px fuchsia dotted;
+  background-color: mediumvioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 20px 50px;
+  transition: border 5s;
+}
+
+#card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ask {
+  background-color: hotpink;
+  width: max-content;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.correct,
+.incorrect {
+  background-color: hotpink;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  margin: 2px;
+  width: max-content;
+  max-width: 100%;
+  cursor: pointer;
+  transition: font-size 3s, opacity 2s;
+}
+
+.category {
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+}
+
+.difficulty {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.answerCount {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+#playagain {
+  display: none;
+  margin: 10px;
+}
+
+#winner {
+  text-shadow: 1px 1px 3px white;
+}

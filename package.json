@@ -1,0 +1,14 @@
+{
+  "name": "trivia-time",
+  "version": "1.0.0",
+  "description": "Trivia Night",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}
